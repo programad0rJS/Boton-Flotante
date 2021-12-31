@@ -1,0 +1,12 @@
+{
+  "name": "aprendiendo-npm-con-fazt",
+  "version": "1.1.1",
+  "description": "aprendiendo-npm-con-fazt",
+  "main": "src/index-platzi.html",
+  "scripts": {
+    "start": "src/Index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

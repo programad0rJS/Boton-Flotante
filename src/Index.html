@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boton Flotante</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <style>
+        .cmn-divfloat {
+            position: fixed !important;
+            bottom: 45px;
+            right: 25px;
+            font-size: 49px;
+
+        }
+
+        .color {
+            color: white;
+            background-color: red;
+            border-radius: 40px;
+            width: 90px;
+            height: 90px;
+            text-align: center;
+            line-height: 2;
+
+
+        }
+
+        .Jefe-container {
+            position: fixed !important;
+
+            bottom: 165px;
+            right: 145px;
+
+            display: none;
+
+        }
+
+        .Jefe-Label {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+
+        .Jefe-Input {
+            width: 390px;
+            padding: 17px;
+
+        }
+
+        .Strongs {
+            position: absolute;
+            color: violet;
+
+            font-size: 30px;
+
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            right: 0;
+
+
+            cursor: pointer;
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="cmn-divfloat" onclick="document.getElementById('Intermedio').style.display='block'">
+
+        <i class="far fa-comment color"></i>
+
+    </div>
+
+
+
+
+    <div class="Jefe-container" id="Intermedio">
+        <form class="Forms">
+
+            <div class="Caja">
+                <label class="Jefe-Label">Nombre:</label>
+                <br>
+                <input type="text" placeholder="Nombre" class="Jefe-Input">
+            </div>
+
+            <div class="Caja">
+                <label class="Jefe-Label">Apellido:</label>
+                <br>
+                <input type="text" placeholder="Apellido" class="Jefe-Input">
+            </div>
+
+
+            <div class="Caja">
+                <label class="Jefe-Label">Email:</label>
+                <br>
+                <input type="email" placeholder="Email" class="Jefe-Input">
+            </div>
+
+
+            <div class="Caja">
+                <label class="Jefe-Label">Password:</label>
+                <br>
+                <input type="password" placeholder="Password" class="Jefe-Input">
+            </div>
+
+
+            <strong class="Strongs" onclick="document.getElementById('Intermedio').style.display='none'">
+                X
+            </strong>
+
+        </form>
+    </div>
+
+    <script>
+
+    </script>
+
+
+</body>
+
+</html>
